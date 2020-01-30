@@ -2022,7 +2022,6 @@ body {
     .programDetail_imgBox {
       width: 508px;
       margin-bottom: 105px;
-      margin-left: -60px;
       float: left;
       clear: both; } }
   @media only screen and (max-width: 767px) {
@@ -2045,9 +2044,9 @@ body {
   .programDetail_imgBox_node {
     display: inline-block;
     vertical-align: top;
-    width: 53%; }
+    width: 60%; }
     .positionRight .programDetail_imgBox_node {
-      width: 47%; } }
+      width: 40%; } }
 
 .programDetail_imgBox_node + .programDetail_imgBox_node {
   padding-left: 4px; }
