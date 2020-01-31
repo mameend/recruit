@@ -1513,14 +1513,14 @@ body {
     .mainvisual_img {
       height: -webkit-calc(100vh);
       height: calc(100vh);
-      background-image: url(../images/topmain.jpeg);
+      background-image: url(https://assets.kurashicom.com/journal/uploads/2019/11/11151036/MTG_MD.jpeg);
       background-attachment: fixed; } }
   .iPad .mainvisual_img {
     background-attachment: scroll; }
   @media only screen and (max-width: 767px) {
     .mainvisual_img {
       width: 100%;
-      background-image: url(../images/topmain.jpeg); } }
+      background-image: url(https://assets.kurashicom.com/journal/uploads/2019/11/11151036/MTG_MD.jpeg); } }
 
 /* .mainvisual_info
 -----------------------------------------------------------------*/
@@ -2494,3 +2494,77 @@ body {
         content: "閉じる"; }
     .cooperativeCompany_button a .bd, .cooperativeCompany_button a .bd:before {
       background-color: #faf7f2; }
+
+
+
+    .article_list{
+      justify-content: center;
+      display: inline-flex;
+      margin:0 10%;
+    }
+    .article_list .item a:hover{
+      opacity:0.7;
+    }
+    .article_list .item{
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      width: 33%;
+      margin:0 auto;
+    }
+    .article_list .item span{
+      display: inline-block;
+      margin-top: 2em;
+    }
+    .job_list{
+      justify-content: center;
+      display: inline-flex;
+      margin:0 10%;
+    }
+    .job_list .item a:hover{
+      opacity:0.7;
+    }
+    .job_list .item{
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      width: 33%;
+      margin:0 auto;
+    }
+    .job_list .item span{
+      display: inline-block;
+      margin-bottom: 2em;
+    }
+    .movie_list{
+      margin:5% auto;
+    }
+    .movie_list .item{
+      text-align: center;
+      width: 50%;
+      margin:0 auto;
+    }
+
+
+    .company_list{
+      justify-content: center;
+      display: inline-flex;
+      margin:0 10%;
+    }
+    .company_list .item{
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      width: 50%;
+      margin:0 auto;
+    }
+    .company_list .item img{
+      display: inline-block;
+      margin-bottom: 2em;
+    }
+    .company_list .item a:hover{
+      opacity:0.7;
+    }
+    .company_list .item span{
+      display: inline-block;
+      margin-bottom: 2em;
+    }
