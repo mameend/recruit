@@ -2497,74 +2497,70 @@ body {
 
 
 
-    .article_list{
-      justify-content: center;
-      display: inline-flex;
-      margin:0 10%;
-    }
-    .article_list .item a:hover{
-      opacity:0.7;
-    }
-    .article_list .item{
-      font-size: 15px;
-      font-weight: bold;
-      text-align: center;
-      width: 33%;
-      margin:0 auto;
-    }
-    .article_list .item span{
-      display: inline-block;
-      margin-top: 2em;
-    }
-    .job_list{
-      justify-content: center;
-      display: inline-flex;
-      margin:0 10%;
-    }
-    .job_list .item a:hover{
-      opacity:0.7;
-    }
-    .job_list .item{
-      font-size: 15px;
-      font-weight: bold;
-      text-align: center;
-      width: 33%;
-      margin:0 auto;
-    }
-    .job_list .item span{
-      display: inline-block;
-      margin-bottom: 2em;
-    }
-    .movie_list{
-      margin:5% auto;
-    }
-    .movie_list .item{
-      text-align: center;
-      width: 50%;
-      margin:0 auto;
-    }
+
+.size_small{
+  font-size: 0.75em;
+}
+.weight_bold{
+  font-weight: 700;
+}
+.align_center{
+  text-align: center;
+}
+a:hover{
+  opacity:0.7;
+}
 
 
-    .company_list{
-      justify-content: center;
-      display: inline-flex;
-      margin:0 10%;
-    }
-    .company_list .item{
-      font-size: 15px;
-      font-weight: bold;
-      text-align: center;
-      width: 50%;
-      margin:0 auto;
-    }
-    .company_list .item img{
-      display: inline-block;
-      margin-bottom: 2em;
-    }
-    .company_list .item a:hover{
-      opacity:0.7;
-    }
-    .company_list .item span{
-      display: inline-block;
-      margin-bottom: 2em;
-    }
+.items_2col, .items_3col {
+  margin:0 auto;
+  max-width: 980px;
+  display: flex;
+  justify-content: space-between;
+}
+.item{
+  margin:3% 0; 
+}
+.items_3col .item {
+  width: 30%;
+}
+.items_2col .item {
+  width: 48%;
+}
+.item-img {
+  padding: 0;
+  margin:0 auto;
+}
+.item-img img{
+  width: 100%;
+  margin:4% 0;
+}
+.item-body {
+  padding: 0;
+}
+.item-title {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.item-body p {
+  font-size: 16px;
+}
+
+.items_2col .item .item-title{
+  text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  .items_2col, .items_3col {
+    flex-direction: column;
+  }
+  .items_2col .item, .items_3col .item {
+    margin:3% auto;
+    width: 90%;
+  }
+  .item-img {
+  padding: 0;
+  }
+}
