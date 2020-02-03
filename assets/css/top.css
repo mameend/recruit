@@ -1506,7 +1506,7 @@ body {
     .mainvisual_img {
       height: -webkit-calc(100vh);
       height: calc(100vh);
-      background-image: url(https://assets.kurashicom.com/journal/uploads/2019/11/11151036/MTG_MD.jpeg);
+      background-image: url(https://s3-ap-northeast-1.amazonaws.com/kurashicom-images/shop/2020-02-03/a6c64abef9b13c607b163006d90b0cbe.jpg);
       background-attachment: fixed; } }
   .iPad .mainvisual_img {
     background-attachment: scroll; }
