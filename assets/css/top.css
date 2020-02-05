@@ -2560,7 +2560,7 @@ a:hover{
 }
 .item-body p {
   font-size: 14px;
-  margin-top: 5px;
+  margin: 5px 0 10px;
 }
 
 .items_2col .item .item-title{
