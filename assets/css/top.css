@@ -2569,6 +2569,9 @@ a:hover{
 
 
 @media screen and (max-width: 767px) {
+.mission img{
+  max-width: 375px;
+}
 .item-title {
   font-size: 14px;
 }
