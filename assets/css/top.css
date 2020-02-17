@@ -1678,7 +1678,7 @@ body {
   position: relative; }
   @media only screen and (min-width: 768px) {
     .conceptSection {
-      margin-bottom: 160px; } }
+      margin-bottom: 20px; } }
   .conceptSection * {
     line-height: 1.8; }
 
@@ -1710,10 +1710,10 @@ body {
   position: relative; }
   @media only screen and (min-width: 768px) {
     .conceptSection_inner {
-      padding: 120px 0 78px; } }
+      padding: 60px 0 120px; } }
   @media only screen and (max-width: 767px) {
     .conceptSection_inner {
-      padding: 52px 0 35px; } }
+      padding: 52px 0 82px; } }
 
 .conceptSection_index {
   text-align: center; }
@@ -2568,6 +2568,11 @@ a:hover{
   text-align: center;
 }
 
+
+.conceptSection_text .sign{
+  text-align: right;
+  display: block;
+}
 
 @media screen and (max-width: 767px) {
 .mission img{
